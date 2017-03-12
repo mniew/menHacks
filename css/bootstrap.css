@@ -4958,9 +4958,13 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 300px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #FF3409  !important;
+  background: url(../pic.jpg) !important;
+  background-repeat:no-repeat !important;
+  background-size:cover !important;
+  /*background-color: #FF3409  !important;*/
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4981,8 +4985,8 @@ a.badge:focus {
 
 .container .jumbotron,
 .container-fluid .jumbotron {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
   border-radius: 6px;
 }
 .jumbotron .container {
@@ -4990,8 +4994,8 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 300px;
+    padding-bottom: 300px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -5003,11 +5007,162 @@ a.badge:focus {
     font-size: 63px;
   }
 }
-
-.myJumbotron {
-   background-color: #D4320F  !important;
+/**/
+.myjumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  color: inherit;
+  background-color: #FFD500  !important;
+}
+.myjumbotron h1,
+.myjumbotron .h1 {
+  color: inherit;
+}
+.myjumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.myjumbotron > hr {
+  border-top-color: #D4320F  !important;
 }
 
+.myjumbotron {
+   background-color: #D4320F;
+}
+
+.container .myjumbotron,
+.container-fluid .myjumbotron {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.myjumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .myjumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .myjumbotron,
+  .container-fluid .myjumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .myjumbotron h1,
+  .myjumbotron .h1 {
+    font-size: 63px;
+  }
+}
+/**/
+.sjumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #FFD500  !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+.sjumbotron h1,
+.sjumbotron .h1 {
+  color: inherit;
+}
+.sjumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.sjumbotron > hr {
+  border-top-color: #D4320F  !important;
+}
+
+.sjumbotron {
+   background-color: #D4320F;
+}
+
+.container .sjumbotron,
+.container-fluid .sjumbotron {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.sjumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .sjumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .sjumbotron,
+  .container-fluid .sjumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .sjumbotron h1,
+  .sjumbotron .h1 {
+    font-size: 63px;
+  }
+}
+/**/
+
+/**/
+.gjumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background: url(../pic.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+.gjumbotron h1,
+.gjumbotron .h1 {
+  color: inherit;
+}
+.gjumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.gjumbotron > hr {
+  border-top-color: #D4320F  !important;
+}
+
+.gjumbotron {
+   background-color: #D4320F;
+}
+
+.container .gjumbotron,
+.container-fluid .gjumbotron {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.gjumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .gjumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .gjumbotron,
+  .container-fluid .gjumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .gjumbotron h1,
+  .gjumbotron .h1 {
+    font-size: 63px;
+  }
+}
+/**/
 .thumbnail {
   display: block;
   padding: 4px;
