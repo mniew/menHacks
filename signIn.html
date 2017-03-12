@@ -7,18 +7,21 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
     <title>MGMH Sign in</title>
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+
+
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+    <!-- <link href="signin.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,32 +36,29 @@
     <div class="container">
 
       <form class="form-signin">
-        <font face="verdana" size="22" color="#FFD500">Please Sign Up</font>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        
-        <!-- email Text Field -->
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
 
-        <!-- password TextField -->
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
+        <input id="txtEmail" type="email" placeholder="Email" >
+      <input id="txtPassword" type="password" placeholder="Password" >
+      <!-- <button id="btnLogin" class="btn btn-action">
+        Login
+      </button> -->
+      <!-- <button id="btnSignUp" class="btn btn-secondary">
+        Sign Up
+      </button> -->
+      <!-- <button id="btnLogout" class="btn btn-action hide">
+        Log Out
+      </button> -->
 
-        </div>
-
-        <!-- sign in button -->
-        <button class="btn btn-lg btn-primary btn-block" id="signInBtn" type="submit">Sign In</button>
-
-        <!-- sign up Button -->
-        <button class="btn btn-lg btn-primary btn-block" id="signUpBtn" type="submit">Sign Up</button>
+      <input type="button" class="btn btn-primary btnSeccion" id="btnSignUp" value="Sign Up"/>
+      <input type="button" class="btn btn-primary btnSeccion" id="btnLogin" value="Log In"/>
       </form>
 
     </div> <!-- /container -->
 
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/signIn.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+    
   </body>
   </div>
 </html>
