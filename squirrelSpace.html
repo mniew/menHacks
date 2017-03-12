@@ -10,7 +10,7 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>Squirrel Space</title>
-
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -57,7 +57,7 @@
             </div> -->
 <!--             <button type="submit" class="btn btn-success">Sign in</button> -->
             <a class="btn btn-primary btn-lg" href="index.html" role="button">Home</a> <a class="btn btn-primary btn-lg" href="index.html" role="button">Post</a></p>
-            <p><font size="4" color="#ccccb3">Tim is logged In</font></p> 
+            <p id = "p4"><font size="4" color="#ccccb3"></font></p> 
 
           </form>
         </div><!--/.navbar-collapse -->
@@ -79,20 +79,29 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="chistian.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <h2>George Redding</h2>
+          <p>Year: 4<br>
+Program: Engineering<br>
+Description: On the football team. Enjoys physical activity. Serious about school work and go out on weekends when available. Gone through endless amounts of school work and lack of sleep. Had a hard time managing both sports and academics in the past, feeling a lack of control.
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="jill.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <h2>Sara Cunnings</h2>
+          <p>Year: 4<br>
+Program: Computer Science<br>
+Description: Was suffering through a slump which resulting in a short stint of depression. Was having trouble with family matters which affected my academics. Trying to get through my depression was tricky, I would make sure I was active once a day and made sure to connect with my friends making sure to leave my dorm.
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="Juan.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Juan Ramirez </h2>
+          <p>Year: 3<br>
+Program: Nutrition <br>
+Description: Being an international student posed its own set of challenges. I was able to connect with other international students but was stressed and home sick at times. Learning to cope and deal with these unfamiliar feelings was though alone. Rather than trying to figure it out by myself I found it helpful to seek guidance in how to handle my feelings of the circumstances I was in.
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -103,20 +112,29 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="Mo.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <h2>Moe Monroe</h2>
+          <p>Year: 4<br>
+Program: Psychology<br>
+Description: Track Sprinter for the University of Guelph. Was having trouble with managing my stress. I was able to reduce my stress by implementing different techniques. Different techniques I used were, tension reduction, meditation, training. 
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="Rafik.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <h2>Rafik Manuel</h2>
+          <p>Year: 3<br>
+Program: Nutrition<br>
+Description: Was having trouble with managing school assignments in first and second year resulting in anxiety with the result of not eating enough. Began to stress to much about school work. Reduced anxiety by time management skills and preparing food ahead of time. Reduced stress due of school work by following schedule created.
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="sarah.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Jill hastings</h2>
+          <p>Year: 4 <br>
+Program: Economics<br>
+Description: After failing first year Microeconomics it contributed to me being placed on academic probation after first year. I was seriously stressed about whether or not I should stay in University and if it was the right fit for me. I reached out to other individuals for reassurance I was in the right place.
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -127,20 +145,29 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="jane.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <h2>Marnie Wu</h2>
+          <p>Year: 4<br>
+Program: Nutrition<br>
+Description: Was diagnosed with a chronic major depression in highschool. Had to learn how to manage my own depression. Whether it was eating healthy, working out, communicating with a counsellor, or time management. 
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="tim.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <h2>Ernie Bert</h2>
+          <p>Year: 4<br>
+Program: Computer Science<br>
+Description: Was diagnosed with a chronic major depression in highschool. Had to learn how to manage my own depression. Whether it was eating healthy, working out, communicating with a counsellor, or time management. 
+</p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="an.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Emily Wafer</h2>
+          <p>Year: 3<br>
+Program: Arts and Science <br>
+Description: Being an international student posed its own set of challenges. I was able to connect with other international students but was stressed and home sick at times. Learning to cope and deal with these unfamiliar feelings was though alone. Rather than trying to figure it out by myself I found it helpful to seek guidance in how to handle my feelings of the circumstances I was in.
+</p></p>
           <p><a class="btn btn-default" href="#" role="button">Connect &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -154,7 +181,7 @@
     </div><!-- /.container -->
     </div>
 
-
+    <script src = "js/squirrelSpace.js"> </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

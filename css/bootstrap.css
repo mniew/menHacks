@@ -5009,8 +5009,8 @@ a.badge:focus {
 }
 /**/
 .myjumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 30px;
   color: inherit;
   background-color: #FFD500  !important;
@@ -5043,8 +5043,8 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .myjumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 150px;
+    padding-bottom: 100px;
   }
   .container .myjumbotron,
   .container-fluid .myjumbotron {
@@ -5150,7 +5150,7 @@ a.badge:focus {
 @media screen and (min-width: 768px) {
   .gjumbotron {
     padding-top: 300px;
-    padding-bottom: 300px;
+    padding-bottom: 500px;
   }
   .container .gjumbotron,
   .container-fluid .gjumbotron {

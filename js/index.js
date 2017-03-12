@@ -1,7 +1,7 @@
 
 	// Initialize Firebase
 try {
-  irebase.initializeApp(config);
+  firebase.initializeApp(config);
 } catch (err) {
   var config = {
     apiKey: "AIzaSyABtn913naDjtWABL-Rhv3DQ1PV2ary3rw",
@@ -15,6 +15,8 @@ try {
 
 const btnLogout = document.getElementById('btnLogout');
 
+
+
 btnLogout.addEventListener ('click', e => {
 		firebase.auth().signOut();
 	})
@@ -24,7 +26,12 @@ btnLogout.addEventListener ('click', e => {
 		if (firebaseUser) {
 			console.log(firebaseUser);
 			var user = firebase.auth().currentUser;
+			document.getElementById("p1").innerHTML = user.email;
+			document.getElementById("p1").style.color = "#ccccb3";
+			
 		} else {
 			console.log('not logged in');
+			document.getElementById("p1").innerHTML = "";
+			document.getElementById("p1").style.color = "#ccccb3";
 		}
 	});
